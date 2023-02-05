@@ -80,7 +80,29 @@
 
 
     </section>
-
+    <form action="" class="message-form">
+        <fieldset>
+            <!-- Имя пользователя -->
+            <legend>Обратная связь</legend>
+            <label for="username" class="label-text">Ваше имя* </label>
+            <input type="text" id="username" class="message-input" name="username" required>
+            <!-- Фамилия -->
+            <label for="usersurname" class="label-text">Ваша фамилия</label>
+            <input type="text" id="usersurname" class="message-input" name="usersurname">
+            <!-- Почта -->
+            <label for="useremail" class="label-text" > Ваша электронная почта*</label>
+            <input type="text" name="useremail" id="useremail" class="message-input" required>
+            <!-- Комментарий -->
+            <label for="comment" class="label-text">Комментарий</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" class="message-input"></textarea>
+            <!-- Телефон -->
+            <label for="usernumber" class="label-text">Ваш телефон*</label>
+            <input type="text" class="message-input" name="usernumber" id="usernumber" required>
+            <!-- Кнопка -->
+            <button>Отправить отзыв</button>
+    
+        </fieldset>
+      </form> 
 
 
 
